@@ -205,6 +205,7 @@ export default function HomePage() {
 
       <footer className="wrap">
         <div>© 2026 Ayomide Adelooye</div>
+        <div className='h-10'/>
       </footer>
     </>
   )

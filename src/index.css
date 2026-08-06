@@ -362,8 +362,12 @@ footer {
     padding: 64px 0 40px;
   }
 
+  .masthead.wrap {
+    padding-left: 30px;
+  }
+
   .tagline {
-    font-family: Inter, sans-serif;
+    font-family: Caveat, cursive;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.6;
