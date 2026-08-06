@@ -105,6 +105,8 @@ nav a:hover {
 
 .masthead {
   padding: 90px 0 56px;
+  padding-left: clamp(20px, 4vw, 28px);
+  padding-right: clamp(20px, 4vw, 28px);
 }
 
 .kicker {
@@ -345,7 +347,7 @@ footer {
   justify-content: space-between;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .wrap {
     padding: 0 20px;
   }
@@ -359,11 +361,9 @@ footer {
   }
 
   .masthead {
-    padding: 64px 0 40px;
-  }
-
-  .masthead.wrap {
-    padding-left: 30px;
+    padding: 44px 0;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .tagline {
@@ -373,7 +373,6 @@ footer {
     line-height: 1.6;
     letter-spacing: -0.01em;
     margin-top: 18px;
-    padding: 0 12px 0 0;
     color: var(--muted);
   }
 
